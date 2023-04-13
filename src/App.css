@@ -381,7 +381,7 @@ button.slick-next {
 
   #hexgrid{
 		padding-top: 2%;
-    padding-bottom: 18%
+    padding-bottom: 15%
   }
   .hex, .hex1, .hex6{
     width: 32%; 
@@ -456,7 +456,7 @@ button.slick-next {
 	.hex1 p {padding: 0 .8rem; font-size: .5rem;}
 	h1.accommodations-title, h1.rates-title, h1.misc-title{font-size: .9rem;}
 	p.hex-p {font-size: .6rem;}
-	p.hex-p-misc {font-size: .52rem;}
+	p.hex-p-misc {font-size: .5rem;}
 
 	.hex h1::after {
 		bottom: 2px;
@@ -574,7 +574,7 @@ button.slick-next {
 
 	h1.accommodations-title, h1.rates-title, h1.misc-title{font-size: .8rem;}
 	p.hex-p {font-size: .55rem;}
-	p.hex-p-misc {font-size: .4rem;}
+	p.hex-p-misc {font-size: .49rem;}
 
 	input, .form-text.msg-input {
 		margin-left: 100%;
@@ -593,6 +593,7 @@ button.slick-next {
 	.hex1 p {padding: 0 .3rem; font-size: .4rem;}
 	h1.accommodations-title, h1.rates-title, h1.misc-title{font-size: .65rem;}
 	p.hex-p {font-size: .45rem;}
+	p.hex-p-misc {font-size: .45rem;}
 
 
 	.logo {
@@ -662,7 +663,7 @@ button.slick-next {
 
 @media screen and (max-width: 385px) {
 	.logo {
-		height: 70px;
+		height: 80px;
 		position: absolute;
 		padding: 2.2rem 1.5rem;
 	}
@@ -671,6 +672,7 @@ button.slick-next {
 	.hex1 p {padding: 0 .5rem; font-size: .45rem;}
 	h1.accommodations-title, h1.rates-title, h1.misc-title{font-size: .75rem;}
 	p.hex-p {font-size: .5rem;}
+	p.hex-p-misc {font-size: .38rem;}
 
 	input, .form-text.msg-input {
 		margin-left: 100%;
