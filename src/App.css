@@ -454,13 +454,21 @@ button.slick-next {
 	.hex1 h1 {font-size: 1.6rem;}
 	.hex1 h2 {font-size: .8rem;}
 	.hex1 p {padding: 0 .8rem; font-size: .5rem;}
-	h1.accommodations-title, h1.rates-title, h1.misc-title{font-size: .9rem;}
+	h1.accommodations-title, h1.rates-title, h1.misc-title{font-size: .75rem;}
+	h1.misc-title {padding-bottom: 11%;}
 	p.hex-p {font-size: .6rem;}
-	p.hex-p-misc {font-size: .5rem;}
+	p.hex-p-misc {font-size: .5rem; padding-top: 5%;}
 
 	.hex h1::after {
-		bottom: 2px;
+		bottom: 3px;
 	}
+
+	.hex h1.misc-title::after {
+		bottom: 9px;
+	}
+
+
+	
 
 	.logo {
 		height: 130px;
@@ -499,7 +507,12 @@ button.slick-next {
 	.hex1 h1 {font-size: 1.5rem;}
 	.hex1 h2 {font-size: .7rem;}
 	.hex1 p {padding: 0 .3rem; font-size: .5rem;}
-	p.hex-p-misc {font-size: .49rem;}
+	h1.misc-title {padding-bottom: 12%}
+	p.hex-p-misc {font-size: .49rem; padding-top: 5%}
+
+	.hex h1.misc-title::after {
+		bottom: 12px;
+	}
 
 	.logo {
 		height: 110px;
@@ -670,9 +683,13 @@ button.slick-next {
 	.hex1 h1 {font-size: 1.2rem;}
 	.hex1 h2 {font-size: .55rem;}
 	.hex1 p {padding: 0 .5rem; font-size: .45rem;}
-	h1.accommodations-title, h1.rates-title, h1.misc-title{font-size: .75rem;}
+	h1.accommodations-title, h1.rates-title, h1.misc-title{font-size: .65rem;}
 	p.hex-p {font-size: .5rem;}
 	p.hex-p-misc {font-size: .38rem;}
+
+	.hex h1.misc-title::after {
+		bottom: 9px;
+	}
 
 	input, .form-text.msg-input {
 		margin-left: 100%;
