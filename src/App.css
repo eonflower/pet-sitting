@@ -567,6 +567,11 @@ button.slick-next {
 	#hexgrid {
 		padding-top: 2%;
 	}
+
+	.hex, .hex1 {
+		width: 45%; 
+	}
+
 	h1.accommodations-title, h1.rates-title, h1.misc-title{font-size: .8rem;}
 	p.hex-p {font-size: .55rem;}
 	p.hex-p-misc {font-size: .4rem;}
@@ -598,30 +603,40 @@ button.slick-next {
     #hexgrid {
 		gap: .5rem;
     }
-		.hex, .hex1 {
-			width: 36%; 
-		}
+		
 		.welcome {
-			margin-right: 19%;
+			margin-right: 21%;
 		}
 		.hex2 { 
-			margin-left: 20%; 
+			margin-left: 24%; 
 		}
 		.hex5 {
-			margin-left: 1%;
+			margin-left: 24%;
 		}
 		.hex6 {
-			margin-left: 19%;
+			margin-left: 49%;
 		}
 
 		.slider {
-			width: 80%;
+			width: 85%;
 			height: 200px;
-			padding: 1rem 2rem 0;
+			padding: 1rem 1rem 0;
 		}
 	
 		.pet-pics {
 			height: 180px;
+		}
+
+		button.slick-prev{
+			left: -18px;
+		}
+		
+		button.slick-next {
+			right: -18px
+		}
+
+		button.slick-prev:before, button.slick-next:before {
+			font-size: 15px;
 		}
 
 		input, .form-text.msg-input {
@@ -651,11 +666,11 @@ button.slick-next {
 		position: absolute;
 		padding: 2.2rem 1.5rem;
 	}
-	.hex1 h1 {font-size: 1rem;}
-	.hex1 h2 {font-size: .48rem;}
-	.hex1 p {padding: 0 .5rem; font-size: .3rem;}
-	h1.accommodations-title, h1.rates-title, h1.misc-title{font-size: .5rem;}
-	p.hex-p {font-size: .36rem;}
+	.hex1 h1 {font-size: 1.2rem;}
+	.hex1 h2 {font-size: .55rem;}
+	.hex1 p {padding: 0 .5rem; font-size: .45rem;}
+	h1.accommodations-title, h1.rates-title, h1.misc-title{font-size: .75rem;}
+	p.hex-p {font-size: .5rem;}
 
 	input, .form-text.msg-input {
 		margin-left: 100%;
@@ -663,9 +678,41 @@ button.slick-next {
 		font-size: .35rem;
 	}
 
+	.welcome {
+		margin-right: 21%;
+	}
+	.hex2 { 
+		margin-left: 24%; 
+	}
+	.hex5 {
+		margin-left: 24%;
+	}
+	.hex6 {
+		margin-left: 49%;
+	}
+
+	.slider {
+		width: 88%;
+		height: 200px;
+		padding: 1rem .85rem 0;
+	}
+
+
 	.form-button {
 		width: 30px;
 		margin-top: 55px;
+	}
+
+	button.slick-prev{
+		left: -18px;
+	}
+	
+	button.slick-next {
+		right: -18px
+	}
+
+	button.slick-prev:before, button.slick-next:before {
+		font-size: 12px;
 	}
 
 }
