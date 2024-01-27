@@ -1,15 +1,9 @@
 import React from 'react';
-import Hex from './hexes/Hex1';
-import Hex2 from './hexes/Hex2';
-import Hex3 from './hexes/Hex3';
-import Hex4 from './hexes/Hex4';
-import Hex5 from './hexes/Hex5';
-import Hex6 from './hexes/Hex6';
+import Hex from './Hex';
 import cat from "../assets/animals/cat4.png"
 import dog from "../assets/animals/dog4.png"
 import cat2 from "../assets/animals/cat5.png"
 import dog2 from "../assets/animals/dog5.png"
-import logo from "../assets/gentle-circle.png"
 
 
 const HexContainer = () => {
