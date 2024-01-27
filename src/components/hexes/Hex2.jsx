@@ -1,5 +1,5 @@
 import React from 'react';
-import cat from "../assets/animals/cat4.png"
+import cat from "../../assets/animals/cat4.png"
 
 const Hex2 = () => {
   return (

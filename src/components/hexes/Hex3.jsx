@@ -1,5 +1,5 @@
 import React from 'react';
-import dog from "../assets/animals/dog4.png"
+import dog from "../../assets/animals/dog4.png"
 
 
 const Hex3 = () => {
