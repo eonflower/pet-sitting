@@ -44,7 +44,7 @@ body {
 .footer-container {
 	display: block;
 	text-align: center;
-	margin: 1.5rem;
+	margin: 4rem 0;
 }
 
 /*** Nav Styles *****************************************************************/
@@ -858,6 +858,10 @@ input.name-input {
 }
 
 @media screen and (max-width: 475px) {
+
+	.app-container {
+		min-height: 85vh;
+	}
   .page-title {
     font-size: 1.8rem;
   }
