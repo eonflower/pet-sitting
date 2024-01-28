@@ -270,11 +270,6 @@ input.name-input {
   height: 120px;
   border-radius: 50%;
   box-shadow: 1px 3px 8px rgb(155, 155, 155);
-	transition: all 1.5s ease-in-out;
-	-webkit-transition: all 1.5s ease-in-out;
-  -moz-transition: all 1.5s ease-in-out;
-  -o-transition: all 1.5s ease-in-out;
-  transition: all 1.5s ease-in-out;
 }
 
 .cat-rates {
@@ -733,6 +728,7 @@ input.name-input {
     border: none;
     border-bottom: #cbd6c7 4px dashed;
     box-shadow: none;
+		transition: none;
   }
 
   .dog-rates {
@@ -746,6 +742,7 @@ input.name-input {
     border: none;
     border-bottom: #cbd6c7 4px dashed;
     box-shadow: none;
+		transition: none;
   }
 
   .misc-rates {
@@ -757,7 +754,17 @@ input.name-input {
     padding: 0 0 50px;
     box-shadow: none;
     border: none;
+		transition: none;
   }
+
+	.cat-rates:hover, .dog-rates:hover {
+		border: none;
+    border-bottom: #cbd6c7 4px dashed;
+	}
+
+	.misc-rates:hover {
+		border: none;
+	}
 
   form {
     padding: 2rem 1.3rem;
