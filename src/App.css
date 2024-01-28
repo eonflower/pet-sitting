@@ -30,7 +30,7 @@ body {
   border: 4px dashed #88aab6a4;
   margin: 1rem auto;
   width: 90%;
-  min-height: 95vh;
+  min-height: 40vh;
   background: #f9f9f9;
   box-shadow: 1px 3px 8px rgb(155, 155, 155);
 }
@@ -858,10 +858,6 @@ input.name-input {
 }
 
 @media screen and (max-width: 475px) {
-
-	.app-container {
-		min-height: 85vh;
-	}
   .page-title {
     font-size: 1.8rem;
   }
@@ -963,7 +959,7 @@ input.name-input {
     margin-top: 1rem;
   }
   form {
-    width: 98%;
+    width: 95%;
   }
   input.name-input,
   input.email-input,
