@@ -3,8 +3,9 @@ import logo from "../assets/gentle-circle.png"
 export default function Rates() {
   return (
     <div className="page-container">
+      <h1 className="page-title">Rates</h1>
       <img className="logo" src={logo} alt="gentle critter logo with butterfly" />
-    <h1 className="page-title">Rates</h1>
+    
     <div className="rates">
       <span className="cat-rates">
         <h2>Cat Rates</h2>
@@ -17,7 +18,7 @@ export default function Rates() {
       <span className="dog-rates">
         <h2>Dog Rates</h2>
         <p>
-          $50 per night for 1 dog
+          $50 per day for 1 dog
           <br />+ $20 for an additional dog
         </p>
       </span>

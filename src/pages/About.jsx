@@ -3,17 +3,17 @@ import logo from "../assets/gentle-circle.png";
 export default function About() {
   return (
     <div className="page-container">
+      <h1 className="page-title">About</h1>
       <img
         className="logo"
         src={logo}
         alt="gentle critter logo with butterfly"
       />
-      <h1 className="page-title">About</h1>
       <div className="about">
         <span>
           <p>
-            Hey there! I'm Aloe, your go-to critter sitter. I'm located in
-            Portland, Oregon. I've been surrounded by furry pals my whole life,
+            Hey there! I'm<span>Aloe</span>, your go-to critter sitter. I'm located in 
+            <span>Portland, Oregon.</span> I've been surrounded by furry and scaly pals my whole life,
             and now I'm here to make sure your pets get the love and care they
             deserve. From quick check-ins to month-long hangouts (or even longer
             if you need), I'm all about making sure your pets feel at home when

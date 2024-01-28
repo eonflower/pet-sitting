@@ -44,7 +44,7 @@ export default function ContactForm() {
   return (
     <div className='form-container'>
     <form ref={form} onSubmit={sendEmail}>
-        <span>
+        <span className='inputs'>
         <label className='label name-label' htmlFor='name'>
           name
         </label>
@@ -83,7 +83,7 @@ export default function ContactForm() {
           onChange={handleChange}
         />
         </span>
-        <input className='form-button' type='submit' value='send' />
+        <input className='form-button' type='submit' value='submit' />
       </form></div>
   );
 }
