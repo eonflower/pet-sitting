@@ -1,4 +1,6 @@
 import React, { useRef, useState } from 'react';
+import emailjs from '@emailjs/browser';
+import config from '../config';
 
 export default function ContactForm() {
   const form = useRef();
@@ -11,11 +13,24 @@ export default function ContactForm() {
   const handleChange = (e) => {
     e.preventDefault();
     const { name, value } = e.target;
-    setFormData((prevData) => ({
-      ...prevData,
-      [name]: value,
-    }));
-  }
+  
+    // Define regex pattern for validation
+    const namePattern = /^[A-Za-z\s]{1,15}$/;
+  
+    // Validate based on input name
+    let isValid = true;
+    if (name === 'name') {
+      isValid = value === '' || namePattern.test(value);
+    } 
+  
+    // Update state only if the input is valid
+    if (isValid) {
+      setFormData((prevData) => ({
+        ...prevData,
+        [name]: value,
+      }));
+    }
+  };
 
 	const sendEmail = (e) => {
     e.preventDefault();
